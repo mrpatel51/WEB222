@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Maulinkumar Rajeshbhai Patel</title>
+<link rel="stylesheet" href="normalize.css">
+</head>
+<body>
+
+<script src="product.js">
+</script>
+
+<header>
+  <h2>Final Assessment</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="honesty.html">Welcome Page</a></li>
+      <li><a href="product.html">Product Info</a></li>
+      <li><a href="reflection.html">Reflection Page</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+	<form name="signup" action="https://httpbin.org/post" method="post" onsubmit="return validateForm()">
+		<table>
+			<tr>
+				<td> <label for="pid">Product ID:</label> </td>
+				<td> <input type="text" id="pid" name="pid" required> </td>
+			</tr>
+			
+			<tr>
+				<td> <label for="pdes">Product Description:</label> </td>
+				<td> <textarea id="pdes" name="pdes" required> </textarea> </td>
+			</tr>
+			
+			<tr>
+				<td> <label for="price">Price:</label> </td>
+				<td> <input type="text" id="price" name="price" required> </td>
+			</tr>
+			
+			<tr>
+				<td> <label for="uname">Supplier Username:</label> </td>
+				<td> <input type="text" id="uname" name="uname" required> </td>
+			</tr>
+			
+			<tr>
+				<td> <label>Supplier Status:</label> </td>
+				<td> 
+					 <input type="checkbox" id="nsup" name="nsup">
+					 <label for="nsup"> New Supplier</label><br>
+					 
+					 <input type="checkbox" id="signed" name="signed">
+					 <label for="signed"> Contract Signed</label><br>
+					 
+					 <input type="checkbox" id="qtested" name="qtested">
+					 <label for="qtested"> Quality Tested</label>
+				
+				</td>
+			</tr>
+			
+			<tr>
+				<td> <label for="email">Supplier Email:</label> </td>
+				<td> <input type="email" id="email" name="email" required> </td>
+			</tr>
+			
+			<tr>
+				<td> <button type="submit" value="Submit">Submit</button> </td>
+				<td> <button type="reset" value="Reset">Reset</button> </td>
+			</tr>
+		</table>
+		<input type="hidden" name="lastName" id="lastName" value="PATEL" />
+		<input type="hidden" name="studentId" id="studentId" value="131589202" />
+		
+	</form>
+  
+  </article>
+  
+  <div id="error"> </div>
+  
+</section>
+
+<footer>
+	<a href="https://github.com/mrpatel51/WEB222.git"> https://github.com/mrpatel51/WEB222.git </a>
+</footer>
+
+</body>
+</html>
